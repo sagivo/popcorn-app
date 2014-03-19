@@ -36,6 +36,12 @@ Run compass in Terminal for CSS compiling and listen to future changes.
 
     $ compass watch --css-dir css
 
+Install node-webkit
+    
+    $ npm install –g generator-node-webkit
+    $ npm install –g nodewebkit
+    
+
 Run node-webkit from the root directory with --debug to enable debugging mode like so
 
     $ node-webkit . --debug
@@ -43,6 +49,10 @@ Run node-webkit from the root directory with --debug to enable debugging mode li
 or
 
     $ nw . --debug
+
+or
+
+    $ open -n -a node-webkit .
 
 Press F12 to display the dev tools. Enjoy!
 
