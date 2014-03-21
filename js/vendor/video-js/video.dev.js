@@ -446,8 +446,8 @@ vjs.fixEvent = function(event) {
       if (old.preventDefault) {
         old.preventDefault();
       }
-      event.returnValue = false;
       event.isDefaultPrevented = returnTrue;
+      event.preventDefault();
     };
 
     event.isDefaultPrevented = returnFalse;
